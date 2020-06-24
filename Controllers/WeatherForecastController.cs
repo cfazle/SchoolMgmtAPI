@@ -28,7 +28,7 @@ namespace SchoolMgmtAPI.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();
-            _logger.Loginfo("Info message from our controller.");
+            _logger.LogInfo("Info message from our controller.");
             _logger.LogDebug("Debug message from our controller.");
             _logger.LogWarn("Warn from our controller.");
             _logger.LogError("Error message from our controller.");
